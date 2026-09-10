@@ -44,9 +44,9 @@ admin это подмножество regular.
 
 - POST /oauth
 
-- GET /user ? ( <name> или <elo-max> ) и <pagination>
+- GET /user ? ( {name} или {elo-max} ) и {pagination}
 
-- GET /user/<id>
+- GET /user/{id}
 
     - видны никнейм, аватар, число побед / поражений.
 
@@ -54,13 +54,13 @@ admin это подмножество regular.
 
     - если чужой и не скрыт, то видны elo.
 
-- GET /user/<id>/match ? <pagination>
+- GET /user/{id}/match ? {pagination}
 
-- PUT /user/<id> ? <hidden = 0 | 1>
+- PUT /user/{id} ? {hidden = 0 | 1}
 
     - если выполняет действие админ над юзером, то hidden будет неснимаемый
 
-- GET /match ? ( <name> или <elo-max> ) и <pagination>
+- GET /match ? ( {name} или {elo-max} ) и {pagination}
 
 #### web-socket
 
