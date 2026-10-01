@@ -31,7 +31,7 @@ export default function LoginPage() {
 
     // Parameters to pass to OAuth 2.0 endpoint.
     var params: any = {
-      'client_id': '768972603313-vdus3bitvc2j8thvsq1euq41496po8kf.apps.googleusercontent.com',
+      'client_id': '768972603313-ff1gbgllfg93vcahba8dgvsv6v1i9dub.apps.googleusercontent.com',
       'redirect_uri': import.meta.env.VITE_ORIGIN + '/oauth/google',
       'response_type': 'token',
       'scope': 'openid email profile',
